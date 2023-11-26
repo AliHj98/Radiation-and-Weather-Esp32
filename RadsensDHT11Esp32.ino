@@ -18,11 +18,11 @@ extern "C" {
 }
 #include <AsyncMqttClient.h>
 
-#define WIFI_SSID "Anonymous"
-#define WIFI_PASSWORD "53952E27EFFA"
+#define WIFI_SSID "xxxxxxxxxxx"
+#define WIFI_PASSWORD "xxxxxxxxxxx"
 
 // Raspberry Pi Mosquitto MQTT Broker
-#define MQTT_HOST IPAddress(192, 168, 2, 8)
+#define MQTT_HOST IPAddress(192, 168, x, x)
 // For a cloud MQTT broker, type the domain name
 //#define MQTT_HOST "example.com"
 #define MQTT_PORT 1883
@@ -159,7 +159,7 @@ void setup() {
   mqttClient.onPublish(onMqttPublish);
   mqttClient.setServer(MQTT_HOST, MQTT_PORT);
   // If your broker requires authentication (username and password), set them below
-  mqttClient.setCredentials("pi", "kali");
+  mqttClient.setCredentials("xxxxxxxxxxxxxxxxxxxxxxxx", "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
   connectToWifi();
 }
 
