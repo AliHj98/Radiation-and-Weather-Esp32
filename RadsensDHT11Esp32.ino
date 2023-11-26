@@ -1,5 +1,7 @@
 /*
+  Fork from
   Rui Santos
+  Edited by ali hj
   Complete project details at https://RandomNerdTutorials.com/esp32-mqtt-publish-dht11-dht22-arduino/
   
   Permission is hereby granted, free of charge, to any person obtaining a copy
